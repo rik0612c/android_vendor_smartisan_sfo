@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/smartisan/sfo/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access \
     vendor/smartisan/sfo/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/smartisan/sfo/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/smartisan/sfo/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/smartisan/sfo/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/smartisan/sfo/proprietary/vendor/etc/data/qmi_config.xml:system/vendor/etc/data/qmi_config.xml \
@@ -215,7 +214,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libmdmdetect \
-    libTimeService \
     libdiag \
     libdsutils \
     libidl \
@@ -225,6 +223,5 @@ PRODUCT_PACKAGES += \
     libqmiservices \
     libtime_genoff \
     qcrilmsgtunnel \
-    TimeService \
     shutdownlistener
 endif
