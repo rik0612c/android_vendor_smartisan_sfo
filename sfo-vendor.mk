@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sfo/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/smartisan/sfo/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/smartisan/sfo/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
